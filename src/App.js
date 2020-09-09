@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import JumbotronComponent from "./JumbotronComponent";
 import Products from "./Products";
 import UserForm from "./UserForm";
+import GitHub from "./GitHub";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         component from the outside.
       </JumbotronComponent>
       <UserForm />
+      <GitHub />
     </div>
   );
 }
